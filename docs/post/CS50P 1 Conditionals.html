@@ -24,7 +24,7 @@
  - \>=表示'大于或等于'，初次看到这种表示形式你可能会诧异，但由于我们无法直接在键盘上打出一整个符号，所以得分开表示
  - \>= 表示“大于或等于”。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://CodeCanvas-Ak.github.io/post/CS50P%201%20Conditionals.html">
+<meta property="og:url" content="https://codecanvas-ak.github.io/Ankars-blog//post/CS50P%201%20Conditionals.html">
 <meta property="og:image" content="https://s2.loli.net/2024/06/25/O4IvSmryKx8cXqT.jpg">
 <title>CS50P 1 Conditionals</title>
 <link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
@@ -71,13 +71,13 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="header">
 <h1 class="postTitle">CS50P 1 Conditionals</h1>
 <div class="title-right">
-    <a href="https://CodeCanvas-Ak.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+    <a href="https://codecanvas-ak.github.io/Ankars-blog/" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
             <path id="pathHome" fill-rule="evenodd"></path>
         </svg>
     </a>
     
-    <a href="https://github.com/CodeCanvas-Ak/CodeCanvas-Ak.github.io/issues/7" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/CodeCanvas-Ak/Ankars-blog/issues/7" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -112,7 +112,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <ul>
 <li>if语句的会根据布尔值（Bool）来决定是否执行，即为True 或 False，如果是True 则执行该条件下的代码</li>
 </ul>
-<div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p><p>Python的特性之一，要注意代码的缩进，否则代码无法正常运行！<br>
+<div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg data-component="Octicon" class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p><p>Python的特性之一，要注意代码的缩进，否则代码无法正常运行！<br>
 接着我们来进一步补全上述代码，令其功能完整</p>
 </div>
 <div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-s1">x</span><span class="pl-c1">=</span><span class="pl-en">int</span>(<span class="pl-en">input</span>(<span class="pl-s">"What`s x?"</span>))
@@ -209,7 +209,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
   <span class="pl-k">elif</span> <span class="pl-c1">70</span> <span class="pl-c1">&lt;=</span> <span class="pl-s1">score</span> <span class="pl-c1">&lt;</span> <span class="pl-c1">80</span>:
       <span class="pl-en">print</span>(<span class="pl-s">"Grade: C"</span>)
   <span class="pl-k">elif</span> <span class="pl-c1">60</span><span class="pl-c1">&lt;=</span><span class="pl-s1">score</span><span class="pl-c1">&lt;</span><span class="pl-c1">70</span>:
-      <span class="pl-en">print</span>(<span class="pl-v">Grade</span>: <span class="pl-v">D</span>")
+      <span class="pl-k">print</span>(<span class="pl-v">Grade</span>: <span class="pl-c1">D</span>")
    <span class="pl-k">else</span>:
     <span class="pl-en">print</span>(<span class="pl-s">"Grade:F"</span>)</pre></div>
 <p>我们可以继续进一步的改进我们的程序：</p>
@@ -225,7 +225,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <span class="pl-en">print</span>(<span class="pl-s">"Grade: D"</span>)
 <span class="pl-k">else</span>:
     <span class="pl-en">print</span>(<span class="pl-s">"Grade: F"</span>)</pre></div>
-<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p><p>我们在一步步的思考如何通过减少问题来改进程序，这使得我们的程序也更加的易于阅读，并且未来也更好的去维护.(好的习惯都是从平时的点点滴滴所形成！)</p>
+<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg data-component="Octicon" class="octicon octicon-light-bulb mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p><p>我们在一步步的思考如何通过减少问题来改进程序，这使得我们的程序也更加的易于阅读，并且未来也更好的去维护.(好的习惯都是从平时的点点滴滴所形成！)</p>
 </div>
 <p><strong>紧接着,我们来学习%（模）运算</strong><br>
 用代码来演示最直观明了，因此我们简单的来编写一个判断数字奇偶性的程序：</p>
@@ -296,7 +296,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
           <span class="pl-en">print</span>(<span class="pl-s">"XISU"</span>)
       <span class="pl-k">case</span> <span class="pl-s">"bakere"</span>:
           <span class="pl-en">print</span>(<span class="pl-s">"SCUT"</span>)
-      <span class="pl-k">case</span> <span class="pl-s1">_</span>:
+      <span class="pl-k">case</span> _:
           <span class="pl-en">print</span>(<span class="pl-s">"Who?"</span>)</pre></div>
 <ul>
 <li>请注意，在最后一种情况下使用符号“_",这将与任何输入匹配，从而产生与“else”语句类似的行为.</li>
@@ -310,7 +310,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
           <span class="pl-en">print</span>(<span class="pl-s">"Beggar`s Room"</span>)
       <span class="pl-k">case</span> <span class="pl-s">"bakere"</span>:
           <span class="pl-en">print</span>(<span class="pl-s">"I don`t know"</span>)
-      <span class="pl-k">case</span> <span class="pl-s1">_</span>:
+      <span class="pl-k">case</span> _:
           <span class="pl-en">print</span>(<span class="pl-s">"Who?"</span>)</pre></div>
 <p><strong>今天的内容到此结束啦~希望这些概念能帮助你更好的理解和使用Python进行编程，也希望你多多动手实现！</strong></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
@@ -319,7 +319,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="comments" id="comments"></div>
 
 </div>
-    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://CodeCanvas-Ak.github.io">凯尔的代码烹饪室</a></div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://codecanvas-ak.github.io/Ankars-blog/">凯尔的代码烹饪室</a></div>
 <div id="footer2">
     <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
 </div>
@@ -332,7 +332,7 @@ if(""!=""){
     var startSite=new Date("");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
-    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+    document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
 }
 </script></div>
 </body>
@@ -365,7 +365,7 @@ function utterancesTheme(theme){
     iframe.contentWindow.postMessage(message,'https://utteranc.es');
 }
 if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
-console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 0;background:#02d81d;color:#fff");
+console.log("\n %c Gmeek last  https://github.com/Meekdai/Gmeek \n","padding:5px 0;background:#02d81d;color:#fff");
 </script>
 
 <script>
@@ -377,6 +377,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");
@@ -384,7 +385,7 @@ function openComments(){
 
     script=document.createElement("script");
     script.setAttribute("src","https://utteranc.es/client.js");
-    script.setAttribute("repo","CodeCanvas-Ak/CodeCanvas-Ak.github.io");
+    script.setAttribute("repo","CodeCanvas-Ak/Ankars-blog");
     script.setAttribute("issue-term","title");
     
     if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
